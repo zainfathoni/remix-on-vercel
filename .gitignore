@@ -1,9 +1,31 @@
 node_modules
 
-.cache
+/.cache
+/build
+/dist
+/public/build
+/.mf
+/app/tailwind.css
+.env
+.env.staging
+.DS_Store
+
+# ESLint
+.eslintcache
+
+# Jest
+coverage
+
+# Playwright
+*.local.*
+
+# Prisma
+/prisma/dev.db
+/prisma/test.db
+/prisma/*.db-journal
+
+# Vercel
 .vercel
 .output
 
-/build/
-/public/build
 /api/index.js
