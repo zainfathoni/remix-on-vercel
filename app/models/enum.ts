@@ -1,0 +1,36 @@
+export const ROLES = {
+  ADMIN: 'ADMIN',
+  AUTHOR: 'AUTHOR',
+  MEMBER: 'MEMBER',
+}
+
+export const CATEGORIES = {
+  PARENTING: 'PARENTING',
+}
+
+export const CONTENT_TYPES = {
+  VIDEO: 'VIDEO',
+}
+
+export const CONSUMPTION_STATUS = {
+  PRISTINE: 'PRISTINE',
+  IN_PROGRESS: 'IN_PROGRESS',
+  COMPLETED: 'COMPLETED',
+}
+
+export const SUBSCRIPTION_STATUS = {
+  INACTIVE: 'INACTIVE',
+  ACTIVE: 'ACTIVE',
+}
+
+export const TRANSACTION_STATUS = {
+  SUBMITTED: 'SUBMITTED',
+  VERIFIED: 'VERIFIED',
+  REJECTED: 'REJECTED',
+}
+
+export type TransactionStatus = 'SUBMITTED' | 'VERIFIED' | 'REJECTED'
+
+export const TRANSACTION_METHOD = {
+  BANK_TRANSFER: 'BANK_TRANSFER',
+}
