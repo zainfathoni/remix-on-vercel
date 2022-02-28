@@ -8,6 +8,7 @@
     "build": "cross-env NODE_ENV=production npm run build:css && remix build",
     "build:css": "tailwindcss --minify -o ./app/tailwind.css",
     "dev": "cross-env NODE_ENV=development remix dev",
+    "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
     "postinstall": "remix setup node"
   },
   "dependencies": {
